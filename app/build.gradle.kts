@@ -41,3 +41,9 @@ dependencies {
     implementation("androidx.compose.material:material-icons-extended")
     implementation("androidx.navigation:navigation-compose:2.7.6")
 }
+EOFcd ~/CloudPhone
+cat << 'EOF' > build.gradle.kts
+plugins {
+    id("com.android.application") version "8.1.4" apply false
+    id("org.jetbrains.kotlin.android") version "1.9.22" apply false
+}
